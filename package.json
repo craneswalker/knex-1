@@ -1,39 +1,27 @@
 {
-  "name": "galvanize-memory",
-  "version": "0.0.2",
-  "description": "You're making an API that can list, create, read, update, and delete a collection of New Year's resolutions. The problem is that you're missing a critical part of the API-- the database! Create a database for this API, and interface with it via [Knex.js](https://knexjs.org).",
-  "main": "app.js",
-  "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "mocha"
-  },
-  "author": "Kyle Coberly",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "dotenv": "^5.0.1",
-    "express": "^4.16.3",
-    "knex": "^0.14.6",
-    "morgan": "^1.9.0",
-    "nodemon": "^1.17.3",
-    "pg": "^7.4.1"
-  },
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^4.1.0",
-    "supertest": "^3.0.0"
-  },
-  "directories": {
-    "test": "test"
-  },
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/craneswalker/knex-1.git"
-  },
-  "bugs": {
-    "url": "https://github.com/craneswalker/knex-1/issues"
-  },
-  "homepage": "https://github.com/craneswalker/knex-1#readme"
+    "name": "galvanize-memory",
+    "version": "0.0.2",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "mocha"
+    },
+    "author": "Kyle Coberly",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "dotenv": "^5.0.1",
+        "express": "^4.16.2",
+        "knex": "^0.14.6",
+        "morgan": "^1.9.0",
+        "nodemon": "^1.17.3",
+        "npm": "^5.8.0",
+        "pg": "^7.4.1"
+    },
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "mocha": "^4.1.0",
+        "supertest": "^3.0.0"
+    }
 }
